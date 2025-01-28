@@ -17,7 +17,7 @@ pipeline {
             steps {
                 script {
                     def dockerfileContent = readFile('Dockerfile')
-                    echo "Dockerfile Content: PASSWORD=Aa123456"
+                    echo "Dockerfile Content: PASSWORD=Aa1234563"
                     echo dockerfileContent
                 }
             }
